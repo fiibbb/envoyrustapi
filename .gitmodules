@@ -1,0 +1,15 @@
+[submodule "proto_deps/protobuf"]
+	path = proto_deps/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "proto_deps/protoc-gen-validate"]
+	path = proto_deps/protoc-gen-validate
+	url = https://github.com/envoyproxy/protoc-gen-validate.git
+[submodule "proto_deps/udpa"]
+	path = proto_deps/udpa
+	url = https://github.com/cncf/udpa.git
+[submodule "proto_deps/data-plane-api"]
+	path = proto_deps/data-plane-api
+	url = https://github.com/envoyproxy/data-plane-api.git
+[submodule "proto_deps/opencensus-proto"]
+	path = proto_deps/opencensus-proto
+	url = https://github.com/census-instrumentation/opencensus-proto.git
