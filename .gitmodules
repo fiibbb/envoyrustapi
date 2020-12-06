@@ -13,3 +13,6 @@
 [submodule "proto_deps/opencensus-proto"]
 	path = proto_deps/opencensus-proto
 	url = https://github.com/census-instrumentation/opencensus-proto.git
+[submodule "proto_deps/googleapis"]
+	path = proto_deps/googleapis
+	url = https://github.com/googleapis/googleapis.git

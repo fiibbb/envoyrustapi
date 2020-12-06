@@ -1,3 +1,6 @@
 /target
 /vendor
+/protos
+/out
 Cargo.lock
+.vscode

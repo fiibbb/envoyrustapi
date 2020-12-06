@@ -8,9 +8,15 @@ edition = "2018"
 
 [dependencies]
 protobuf-codegen-pure = "2.18.1"
+protoc-rust = "2.18.1"
+tempfile = "3.1.0"
+glob = "0.3.0"
 
 [build-dependencies]
 protobuf-codegen-pure = "2.18.1"
+protoc-rust = "2.18.1"
+tempfile = "3.1.0"
+glob = "0.3.0"
 
 [[bin]]
 name = "envoyrustapi"
