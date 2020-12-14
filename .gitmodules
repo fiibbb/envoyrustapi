@@ -1,24 +1,21 @@
-[submodule "proto_deps/protobuf"]
-	path = proto_deps/protobuf
+[submodule "proto_deps/repos/client_model"]
+	path = proto_deps/repos/client_model
+	url = https://github.com/prometheus/client_model.git
+[submodule "proto_deps/repos/protobuf"]
+	path = proto_deps/repos/protobuf
 	url = https://github.com/protocolbuffers/protobuf.git
-[submodule "proto_deps/protoc-gen-validate"]
-	path = proto_deps/protoc-gen-validate
+[submodule "proto_deps/repos/protoc-gen-validate"]
+	path = proto_deps/repos/protoc-gen-validate
 	url = https://github.com/envoyproxy/protoc-gen-validate.git
-[submodule "proto_deps/udpa"]
-	path = proto_deps/udpa
+[submodule "proto_deps/repos/udpa"]
+	path = proto_deps/repos/udpa
 	url = https://github.com/cncf/udpa.git
-[submodule "proto_deps/data-plane-api"]
-	path = proto_deps/data-plane-api
+[submodule "proto_deps/repos/data-plane-api"]
+	path = proto_deps/repos/data-plane-api
 	url = https://github.com/envoyproxy/data-plane-api.git
-[submodule "proto_deps/opencensus-proto"]
-	path = proto_deps/opencensus-proto
+[submodule "proto_deps/repos/opencensus-proto"]
+	path = proto_deps/repos/opencensus-proto
 	url = https://github.com/census-instrumentation/opencensus-proto.git
-[submodule "proto_deps/googleapis"]
-	path = proto_deps/googleapis
+[submodule "proto_deps/repos/googleapis"]
+	path = proto_deps/repos/googleapis
 	url = https://github.com/googleapis/googleapis.git
-[submodule "proto_deps/client_model"]
-	path = proto_deps/client_model
-	url = https://github.com/prometheus/client_model.git
-[submodule "client_model"]
-	path = client_model
-	url = https://github.com/prometheus/client_model.git
