@@ -16,3 +16,9 @@
 [submodule "proto_deps/googleapis"]
 	path = proto_deps/googleapis
 	url = https://github.com/googleapis/googleapis.git
+[submodule "proto_deps/client_model"]
+	path = proto_deps/client_model
+	url = https://github.com/prometheus/client_model.git
+[submodule "client_model"]
+	path = client_model
+	url = https://github.com/prometheus/client_model.git
