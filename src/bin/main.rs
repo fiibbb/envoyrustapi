@@ -1,91 +1,54 @@
-use std::collections::HashMap;
-use std::fs;
-use std::path::{Path, PathBuf};
+use std::{fs};
+use std::path::{Path};
 
-use glob;
-use protoc_rust as proto;
-
-fn must_glob_proto_files_recursive(prefix: &Path, path: &Path, files: &mut Vec<PathBuf>) {
-    let file_name = path
-        .file_name()
-        .expect("file_name")
-        .to_str()
-        .expect("to_str");
-    if path.is_dir() {
-        for entry in fs::read_dir(path).expect("read_dir") {
-            let sub_dir = &entry.expect("entry").path();
-            must_glob_proto_files_recursive(prefix, sub_dir, files);
+// eg: ("proto_deps/repos/client_model", "proto_deps/repos/client_model", "src")
+//     => src/metrics.proto
+//
+// eg: ("proto_deps/repos/googleapis/google/api", "proto_deps/repos/googleapis", "src")
+//     => src/google/api/[http.proto|context.proto|...]
+//
+// eg: ("proto_deps/repos/udpa/udpa", "proto_deps/repos/udpa", "src")
+//     => src/upda/[...]
+//
+// eg: ("proto_deps/repos/udpa/xds", "proto_deps/repos/udpa", "src")
+//     => src/xds/[...]
+fn copy_proto_files_for_path(src_path: &Path, src_path_trim_prefix: &Path, dst_root: &Path) {
+    let file_name = src_path.file_name()
+                        .and_then(|name| name.to_str())
+                        .expect("file_name");
+    if src_path.is_dir() {
+        for entry in fs::read_dir(src_path).expect("read_dir") {
+            copy_proto_files_for_path((entry.expect("entry")).path().as_path(), src_path_trim_prefix, dst_root);
         }
     } else if file_name.ends_with(".proto") {
-        let file = path.strip_prefix(prefix).expect("strip_prefix");
-        files.push(PathBuf::from(file));
+        let dst_sub_dir = src_path.strip_prefix(src_path_trim_prefix).expect("dst_sub_dir").parent().expect("parent");
+        let dst_path = dst_root.join(dst_sub_dir);
+        fs::create_dir_all(dst_path.as_path()).expect("create_dir_all");
+        println!("copying: '{}' => '{}'", src_path.display(), dst_path.join(file_name).display());
+        fs::copy(src_path, dst_path.join(file_name)).expect("copy");
     }
 }
 
-fn must_glob_proto_files(root_paths: Vec<&Path>) -> HashMap<PathBuf, Vec<PathBuf>> {
-    let mut files = HashMap::new();
-    for root_path in root_paths {
-        let mut files_under_path = Vec::new();
-        let root_path_parent = root_path.parent().expect("parent");
-        must_glob_proto_files_recursive(root_path_parent, root_path, &mut files_under_path);
-        files.insert(PathBuf::from(root_path), files_under_path);
-    }
-    files
+fn build_proto_farm() {
+    let dst_root = Path::new("proto_deps/src");
+    fs::create_dir_all(dst_root).expect("create_dir_all");
+    copy_proto_files_for_path(Path::new("proto_deps/repos/client_model"), Path::new("proto_deps/repos/client_model"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/data-plane-api/envoy"), Path::new("proto_deps/repos/data-plane-api"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/googleapis/google/api"), Path::new("proto_deps/repos/googleapis"), dst_root);
+    // copy_proto_files_for_path(Path::new("proto_deps/repos/opencensus-proto/src/opencensus/proto/"), Path::new("proto_deps/repos/opencensus-proto/src/opencensus"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/protobuf/src/google/protobuf"), Path::new("proto_deps/repos/protobuf/src"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/protoc-gen-validate/validate"), Path::new("proto_deps/repos/protoc-gen-validate"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/udpa/udpa"), Path::new("proto_deps/repos/udpa/"), dst_root);
+    copy_proto_files_for_path(Path::new("proto_deps/repos/udpa/xds"), Path::new("proto_deps/repos/udpa/"), dst_root);
 }
 
-fn must_build_proto_farm(files: HashMap<PathBuf, Vec<PathBuf>>, farm_root: &Path) {
-    for (dir, dir_files) in files {
-        for dir_file in dir_files {
-            let file_path = PathBuf::from(dir.parent().expect("parent")).join(&dir_file);
-            let tmp_file_path = farm_root.join(dir_file.as_path());
-            println!(
-                "copying into proto farm: '{}' -> '{}'",
-                file_path.as_path().display(),
-                tmp_file_path.as_path().display()
-            );
-            fs::create_dir_all(tmp_file_path.parent().expect("parent")).expect("create_dir_all");
-            fs::copy(file_path, tmp_file_path).expect("copy");
-        }
-    }
-}
+fn compile_proto_farm() {
+    fs::create_dir_all(Path::new("src/api"));
 
-fn must_compile_protos(src_dir: &Path, dst_dir: &Path) {
-    let pattern = format!(
-        "{}/**/*.proto",
-        src_dir.as_os_str().to_str().expect("to_str")
-    );
-    let inputs = glob::glob(&pattern)
-        .expect("glob")
-        .map(|x| x.expect("pathbuf unwrap"));
-    fs::create_dir_all(dst_dir).expect("create_dir_all");
-
-    inputs.for_each(|input| {
-        println!(
-            "compiling: {} -> {}, using {}",
-            input.display(),
-            dst_dir.display(),
-            src_dir.display()
-        );
-        let mut compiler = proto::Codegen::new();
-        compiler.out_dir(dst_dir);
-        compiler.include(src_dir);
-        compiler.input(input);
-        compiler.run().expect("compilation failed");
-    });
 }
 
 fn main() {
-    let root_paths = vec![
-        Path::new("proto_deps/protobuf/src/google"),
-        Path::new("proto_deps/googleapis/google"),
-        Path::new("proto_deps/protoc-gen-validate/validate"),
-        Path::new("proto_deps/opencensus-proto/src/opencensus"),
-        Path::new("proto_deps/udpa/udpa"),
-        Path::new("proto_deps/udpa/xds"),
-        Path::new("proto_deps/data-plane-api/envoy"),
-    ];
-    let farm_root = &Path::new("protos/");
-    let out_root = &Path::new("out/");
-    must_build_proto_farm(must_glob_proto_files(root_paths), farm_root);
-    must_compile_protos(farm_root, out_root);
+    build_proto_farm();
+    compile_proto_farm();
 }
+
