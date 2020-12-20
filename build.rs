@@ -203,22 +203,19 @@ fn compile_proto_farm() {
     fs::remove_dir_all(dst_root).expect("remove_dir_all");
     fs::create_dir_all(dst_root).expect("create_dir_all");
 
-    let inputs = glob::glob("proto_deps/src/**/*.proto")
+    let src_prefix = "proto_deps/src";
+    let inputs = glob::glob(&format!("{}/**/*.proto", src_prefix))
         .expect("glob")
         .map(|entry| entry.expect("glob entry"));
 
-    Codegen::new()
-        .out_dir(dst_root)
-        .include("proto_deps/src")
-        .inputs(inputs)
-        .customize(
-            Customize{
+    inputs.for_each(|input| {
+        let out_path = input.parent().expect("parent").strip_prefix(src_prefix).expect("strip_prefix");
+        fs::create_dir_all(out_path).expect("create_dir_all");
+        Codegen::new().out_dir(out_path).include(src_prefix).input(input).customize(Customize{
                 gen_mod_rs: Some(true),
                 .. Customize::default()
-            }
-        )
-        .run()
-        .expect("codegen");
+        }).run().expect("codegen");
+    });
 }
 
 fn main() {
