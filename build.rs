@@ -209,10 +209,10 @@ fn compile_proto_farm() {
         .map(|entry| entry.expect("glob entry"));
 
     inputs.for_each(|input| {
-        let out_path = input.parent().expect("parent").strip_prefix(src_prefix).expect("strip_prefix");
+        let out_path = dst_root.join(input.parent().expect("parent").strip_prefix(src_prefix).expect("strip_prefix"));
+        let out_path = out_path.as_path();
         fs::create_dir_all(out_path).expect("create_dir_all");
         Codegen::new().out_dir(out_path).include(src_prefix).input(input).customize(Customize{
-                gen_mod_rs: Some(true),
                 .. Customize::default()
         }).run().expect("codegen");
     });
