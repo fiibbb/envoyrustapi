@@ -232,9 +232,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     R\x10collectorClusterB\x07\xfaB\x04r\x02\x10\x01\x12*\n\x0cservice_name\
     \x18\x02\x20\x01(\tR\x0bserviceNameB\x07\xfaB\x04r\x02\x10\x01:*\x9a\xc5\
     \x88\x1e%\n#envoy.config.trace.v2.DatadogConfigBm\n#io.envoyproxy.envoy.\
-    config.trace.v3B\x0cDatadogProtoP\x01\xf2\x98\xfe\x8f\x05*\x12(envoy.ext\
-    ensions.tracers.datadog.v4alpha\xba\x80\xc8\xd1\x06\x02\x10\x02b\x06prot\
-    o3\
+    config.trace.v3B\x0cDatadogProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x02\
+    \xf2\x98\xfe\x8f\x05*\x12(envoy.extensions.tracers.datadog.v4alphab\x06p\
+    roto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

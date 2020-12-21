@@ -143,9 +143,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n.envoy/config/filter/network/echo/v2/echo.proto\x12#envoy.config.filte\
     r.network.echo.v2\x1a\x1eudpa/annotations/migrate.proto\x1a\x1dudpa/anno\
     tations/status.proto\"\x06\n\x04EchoBx\n1io.envoyproxy.envoy.config.filt\
-    er.network.echo.v2B\tEchoProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\
-    \x98\xfe\x8f\x05*\x12(envoy.extensions.filters.network.echo.v3b\x06proto\
-    3\
+    er.network.echo.v2B\tEchoProtoP\x01\xf2\x98\xfe\x8f\x05*\x12(envoy.exten\
+    sions.filters.network.echo.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

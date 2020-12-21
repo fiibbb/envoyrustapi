@@ -326,8 +326,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x05delay\x18\x03\x20\x01(\x0b2(.envoy.config.filter.fault.v2.FaultDelay\
     R\x05delay\x122\n\x15emit_dynamic_metadata\x18\x04\x20\x01(\x08R\x13emit\
     DynamicMetadataB\x8c\x01\n8io.envoyproxy.envoy.config.filter.network.mon\
-    go_proxy.v2B\x0fMongoProxyProtoP\x01\xf2\x98\xfe\x8f\x051\x12/envoy.exte\
-    nsions.filters.network.mongo_proxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\
+    go_proxy.v2B\x0fMongoProxyProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\
+    \x98\xfe\x8f\x051\x12/envoy.extensions.filters.network.mongo_proxy.v3b\
     \x06proto3\
 ";
 

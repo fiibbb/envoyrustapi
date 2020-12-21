@@ -342,8 +342,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ationR\x0crefreshDelay\x12@\n\rip_white_list\x18\x04\x20\x03(\x0b2\x1c.e\
     nvoy.api.v2.core.CidrRangeR\x0bipWhiteListB\x97\x01\n<io.envoyproxy.envo\
     y.config.filter.network.client_ssl_auth.v2B\x12ClientSslAuthProtoP\x01\
-    \xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x055\x123envoy.extensio\
-    ns.filters.network.client_ssl_auth.v3b\x06proto3\
+    \xf2\x98\xfe\x8f\x055\x123envoy.extensions.filters.network.client_ssl_au\
+    th.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

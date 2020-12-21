@@ -1950,7 +1950,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     d_certificate_timestamp\x18\x05\x20\x03(\x0b2\x1d.envoy.api.v2.core.Data\
     SourceR\x1asignedCertificateTimestamp\"Y\n\x14TlsSessionTicketKeys\x12A\
     \n\x04keys\x18\x01\x20\x03(\x0b2\x1d.envoy.api.v2.core.DataSourceR\x04ke\
-    ysB\x0e\xfaB\x05\x92\x01\x02\x08\x01\xb8\xb7\x8b\xa4\x02\x01\"\xfc\x06\n\
+    ysB\x0e\xb8\xb7\x8b\xa4\x02\x01\xfaB\x05\x92\x01\x02\x08\x01\"\xfc\x06\n\
     \x1cCertificateValidationContext\x12<\n\ntrusted_ca\x18\x01\x20\x01(\x0b\
     2\x1d.envoy.api.v2.core.DataSourceR\ttrustedCa\x12F\n\x17verify_certific\
     ate_spki\x18\x03\x20\x03(\tR\x15verifyCertificateSpkiB\x0e\xfaB\x0b\x92\

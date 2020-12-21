@@ -189,8 +189,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     e/validate.proto\"7\n\x0bKafkaBroker\x12(\n\x0bstat_prefix\x18\x01\x20\
     \x01(\tR\nstatPrefixB\x07\xfaB\x04r\x02\x20\x01B\x95\x01\n?io.envoyproxy\
     .envoy.config.filter.network.kafka_broker.v2alpha1B\x10KafkaBrokerProtoP\
-    \x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x052\x120envoy.exte\
-    nsions.filters.network.kafka_broker.v3b\x06proto3\
+    \x01\xf2\x98\xfe\x8f\x052\x120envoy.extensions.filters.network.kafka_bro\
+    ker.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

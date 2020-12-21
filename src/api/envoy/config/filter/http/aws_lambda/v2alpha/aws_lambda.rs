@@ -485,9 +485,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x0ePerRouteConfig\x12X\n\rinvoke_config\x18\x01\x20\x01(\x0b23.envoy.\
     config.filter.http.aws_lambda.v2alpha.ConfigR\x0cinvokeConfigB\x90\x01\n\
     9io.envoyproxy.envoy.config.filter.http.aws_lambda.v2alphaB\x0eAwsLambda\
-    ProtoP\x01\xf2\x98\xfe\x8f\x05-\x12+envoy.extensions.filters.http.aws_la\
-    mbda.v3\xba\x80\xc8\xd1\x06\x02\x08\x01\xba\x80\xc8\xd1\x06\x02\x10\x01b\
-    \x06proto3\
+    ProtoP\x01\xba\x80\xc8\xd1\x06\x02\x08\x01\xba\x80\xc8\xd1\x06\x02\x10\
+    \x01\xf2\x98\xfe\x8f\x05-\x12+envoy.extensions.filters.http.aws_lambda.v\
+    3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

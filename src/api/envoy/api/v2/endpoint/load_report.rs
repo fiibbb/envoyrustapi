@@ -1745,8 +1745,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x0fDroppedRequests\x12#\n\x08category\x18\x01\x20\x01(\tR\x08categoryB\
     \x07\xfaB\x04r\x02\x20\x01\x12#\n\rdropped_count\x18\x02\x20\x01(\x04R\
     \x0cdroppedCountB`\n#io.envoyproxy.envoy.api.v2.endpointB\x0fLoadReportP\
-    rotoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x1a\x12\
-    \x18envoy.config.endpoint.v3b\x06proto3\
+    rotoP\x01\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.config.endpoint.v3\xba\
+    \x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

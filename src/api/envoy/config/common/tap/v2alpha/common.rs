@@ -474,8 +474,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     .service.tap.v2alpha.TapConfigH\0R\x0cstaticConfigB\x12\n\x0bconfig_type\
     \x12\x03\xf8B\x01\"3\n\x0bAdminConfig\x12$\n\tconfig_id\x18\x01\x20\x01(\
     \tR\x08configIdB\x07\xfaB\x04r\x02\x20\x01Bl\n-io.envoyproxy.envoy.confi\
-    g.common.tap.v2alphaB\x0bCommonProtoP\x01\xf2\x98\xfe\x8f\x05\x20\x12\
-    \x1eenvoy.extensions.common.tap.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06p\
+    g.common.tap.v2alphaB\x0bCommonProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\
+    \x01\xf2\x98\xfe\x8f\x05\x20\x12\x1eenvoy.extensions.common.tap.v3b\x06p\
     roto3\
 ";
 

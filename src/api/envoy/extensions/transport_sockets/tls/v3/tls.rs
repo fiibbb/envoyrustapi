@@ -2716,20 +2716,20 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     efaultValidationContextB\x08\xfaB\x05\x8a\x01\x02\x10\x01\x12\xb6\x01\n$\
     validation_context_sds_secret_config\x18\x02\x20\x01(\x0b2:.envoy.extens\
     ions.transport_sockets.tls.v3.SdsSecretConfigR\x20validationContextSdsSe\
-    cretConfigB*\xf2\x98\xfe\x8f\x05\x1c\x12\x1adynamic_validation_context\
-    \xfaB\x05\x8a\x01\x02\x10\x01\x12\xca\x01\n'validation_context_certifica\
-    te_provider\x18\x03\x20\x01(\x0b2O.envoy.extensions.transport_sockets.tl\
-    s.v3.CommonTlsContext.CertificateProviderR$validationContextCertificateP\
-    roviderB\"\xf2\x98\xfe\x8f\x05\x1c\x12\x1adynamic_validation_context\x12\
-    \xe3\x01\n0validation_context_certificate_provider_instance\x18\x04\x20\
-    \x01(\x0b2W.envoy.extensions.transport_sockets.tls.v3.CommonTlsContext.C\
-    ertificateProviderInstanceR,validationContextCertificateProviderInstance\
-    B\"\xf2\x98\xfe\x8f\x05\x1c\x12\x1adynamic_validation_context:N\x9a\xc5\
-    \x88\x1eI\nGenvoy.api.v2.auth.CommonTlsContext.CombinedCertificateValida\
-    tionContextB\x19\n\x17validation_context_type:)\x9a\xc5\x88\x1e$\n\"envo\
-    y.api.v2.auth.CommonTlsContextJ\x04\x08\x05\x10\x06BM\n7io.envoyproxy.en\
-    voy.extensions.transport_sockets.tls.v3B\x08TlsProtoP\x01\xba\x80\xc8\
-    \xd1\x06\x02\x10\x02b\x06proto3\
+    cretConfigB*\xfaB\x05\x8a\x01\x02\x10\x01\xf2\x98\xfe\x8f\x05\x1c\x12\
+    \x1adynamic_validation_context\x12\xca\x01\n'validation_context_certific\
+    ate_provider\x18\x03\x20\x01(\x0b2O.envoy.extensions.transport_sockets.t\
+    ls.v3.CommonTlsContext.CertificateProviderR$validationContextCertificate\
+    ProviderB\"\xf2\x98\xfe\x8f\x05\x1c\x12\x1adynamic_validation_context\
+    \x12\xe3\x01\n0validation_context_certificate_provider_instance\x18\x04\
+    \x20\x01(\x0b2W.envoy.extensions.transport_sockets.tls.v3.CommonTlsConte\
+    xt.CertificateProviderInstanceR,validationContextCertificateProviderInst\
+    anceB\"\xf2\x98\xfe\x8f\x05\x1c\x12\x1adynamic_validation_context:N\x9a\
+    \xc5\x88\x1eI\nGenvoy.api.v2.auth.CommonTlsContext.CombinedCertificateVa\
+    lidationContextB\x19\n\x17validation_context_type:)\x9a\xc5\x88\x1e$\n\"\
+    envoy.api.v2.auth.CommonTlsContextJ\x04\x08\x05\x10\x06BM\n7io.envoyprox\
+    y.envoy.extensions.transport_sockets.tls.v3B\x08TlsProtoP\x01\xba\x80\
+    \xc8\xd1\x06\x02\x10\x02b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

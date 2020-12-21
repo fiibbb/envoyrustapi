@@ -458,9 +458,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     R\x1erateLimitedAsResourceExhausted\x12i\n\x12rate_limit_service\x18\x07\
     \x20\x01(\x0b21.envoy.config.ratelimit.v2.RateLimitServiceConfigR\x10rat\
     eLimitServiceB\x08\xfaB\x05\x8a\x01\x02\x10\x01B\x82\x01\n4io.envoyproxy\
-    .envoy.config.filter.http.rate_limit.v2B\x0eRateLimitProtoP\x01\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05,\x12*envoy.extensions.filte\
-    rs.http.ratelimit.v3b\x06proto3\
+    .envoy.config.filter.http.rate_limit.v2B\x0eRateLimitProtoP\x01\xf2\x98\
+    \xfe\x8f\x05,\x12*envoy.extensions.filters.http.ratelimit.v3\xba\x80\xc8\
+    \xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -187,8 +187,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     udpa/annotations/status.proto\x1a\x17validate/validate.proto\"5\n\rClust\
     erConfig\x12$\n\x08clusters\x18\x01\x20\x03(\tR\x08clustersB\x08\xfaB\
     \x05\x92\x01\x02\x08\x01B|\n4io.envoyproxy.envoy.config.cluster.aggregat\
-    e.v2alphaB\x0cClusterProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\
-    \xfe\x8f\x05(\x12&envoy.extensions.clusters.aggregate.v3b\x06proto3\
+    e.v2alphaB\x0cClusterProtoP\x01\xf2\x98\xfe\x8f\x05(\x12&envoy.extension\
+    s.clusters.aggregate.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

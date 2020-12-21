@@ -236,8 +236,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     oto\"y\n\x12EventServiceConfig\x12C\n\x0cgrpc_service\x18\x01\x20\x01(\
     \x0b2\x1e.envoy.api.v2.core.GrpcServiceH\0R\x0bgrpcServiceB\x1e\n\x17con\
     fig_source_specifier\x12\x03\xf8B\x01B`\n\x1fio.envoyproxy.envoy.api.v2.\
-    coreB\x17EventServiceConfigProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\
-    \xf2\x98\xfe\x8f\x05\x16\x12\x14envoy.config.core.v3b\x06proto3\
+    coreB\x17EventServiceConfigProtoP\x01\xf2\x98\xfe\x8f\x05\x16\x12\x14env\
+    oy.config.core.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

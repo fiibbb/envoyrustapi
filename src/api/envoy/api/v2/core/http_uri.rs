@@ -330,8 +330,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x07\xfaB\x04r\x02\x20\x01\x12?\n\x07timeout\x18\x03\x20\x01(\x0b2\x19.g\
     oogle.protobuf.DurationR\x07timeoutB\n\xfaB\x07\xaa\x01\x04\x08\x012\0B\
     \x19\n\x12http_upstream_type\x12\x03\xf8B\x01BU\n\x1fio.envoyproxy.envoy\
-    .api.v2.coreB\x0cHttpUriProtoP\x01\xf2\x98\xfe\x8f\x05\x16\x12\x14envoy.\
-    config.core.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    .api.v2.coreB\x0cHttpUriProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\
+    \x98\xfe\x8f\x05\x16\x12\x14envoy.config.core.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;
