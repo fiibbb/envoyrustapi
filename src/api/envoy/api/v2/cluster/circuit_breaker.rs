@@ -968,8 +968,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \rbudgetPercent\x12P\n\x15min_retry_concurrency\x18\x02\x20\x01(\x0b2\
     \x1c.google.protobuf.UInt32ValueR\x13minRetryConcurrencyB\x94\x01\n\"io.\
     envoyproxy.envoy.api.v2.clusterB\x13CircuitBreakerProtoP\x01\xaa\x02\x16\
-    Envoy.Api.V2.ClusterNS\xea\x02\x16Envoy.Api.V2.ClusterNS\xf2\x98\xfe\x8f\
-    \x05\x19\x12\x17envoy.config.cluster.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\
+    Envoy.Api.V2.ClusterNS\xea\x02\x16Envoy.Api.V2.ClusterNS\xba\x80\xc8\xd1\
+    \x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x19\x12\x17envoy.config.cluster.v3b\
     \x06proto3\
 ";
 

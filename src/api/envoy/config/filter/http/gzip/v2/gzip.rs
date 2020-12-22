@@ -790,8 +790,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x08\n\x04BEST\x10\x01\x12\t\n\x05SPEED\x10\x02\"F\n\x13CompressionStrat\
     egy\x12\x0b\n\x07DEFAULT\x10\0\x12\x0c\n\x08FILTERED\x10\x01\x12\x0b\n\
     \x07HUFFMAN\x10\x02\x12\x07\n\x03RLE\x10\x03Br\n.io.envoyproxy.envoy.con\
-    fig.filter.http.gzip.v2B\tGzipProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\
-    \xf2\x98\xfe\x8f\x05'\x12%envoy.extensions.filters.http.gzip.v3b\x06prot\
+    fig.filter.http.gzip.v2B\tGzipProtoP\x01\xf2\x98\xfe\x8f\x05'\x12%envoy.\
+    extensions.filters.http.gzip.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06prot\
     o3\
 ";
 

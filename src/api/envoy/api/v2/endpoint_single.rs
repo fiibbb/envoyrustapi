@@ -881,8 +881,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ageJ\x04\x08\x01\x10\x02\x1ab\n\x13NamedEndpointsEntry\x12\x10\n\x03key\
     \x18\x01\x20\x01(\tR\x03key\x125\n\x05value\x18\x02\x20\x01(\x0b2\x1f.en\
     voy.api.v2.endpoint.EndpointR\x05value:\x028\x01BU\n\x1aio.envoyproxy.en\
-    voy.api.v2B\rEndpointProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\
-    \xfe\x8f\x05\x1a\x12\x18envoy.config.endpoint.v3b\x06proto3\
+    voy.api.v2B\rEndpointProtoP\x01\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.con\
+    fig.endpoint.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

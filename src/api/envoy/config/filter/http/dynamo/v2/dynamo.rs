@@ -143,9 +143,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n/envoy/config/filter/http/dynamo/v2/dynamo.proto\x12\"envoy.config.fil\
     ter.http.dynamo.v2\x1a\x1eudpa/annotations/migrate.proto\x1a\x1dudpa/ann\
     otations/status.proto\"\x08\n\x06DynamoBx\n0io.envoyproxy.envoy.config.f\
-    ilter.http.dynamo.v2B\x0bDynamoProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\
-    \x01\xf2\x98\xfe\x8f\x05)\x12'envoy.extensions.filters.http.dynamo.v3b\
-    \x06proto3\
+    ilter.http.dynamo.v2B\x0bDynamoProtoP\x01\xf2\x98\xfe\x8f\x05)\x12'envoy\
+    .extensions.filters.http.dynamo.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06p\
+    roto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

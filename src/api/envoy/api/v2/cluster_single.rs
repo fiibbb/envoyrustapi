@@ -7053,8 +7053,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x01(\x0b2\x1a.envoy.api.v2.core.AddressR\rsourceAddress\"a\n\x19Upstrea\
     mConnectionOptions\x12D\n\rtcp_keepalive\x18\x01\x20\x01(\x0b2\x1f.envoy\
     .api.v2.core.TcpKeepaliveR\x0ctcpKeepaliveBS\n\x1aio.envoyproxy.envoy.ap\
-    i.v2B\x0cClusterProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
-    \x8f\x05\x19\x12\x17envoy.config.cluster.v3b\x06proto3\
+    i.v2B\x0cClusterProtoP\x01\xf2\x98\xfe\x8f\x05\x19\x12\x17envoy.config.c\
+    luster.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

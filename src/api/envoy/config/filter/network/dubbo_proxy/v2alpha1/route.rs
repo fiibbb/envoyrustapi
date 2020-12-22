@@ -1602,8 +1602,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     e\x18\x02\x20\x01(\x0b2U.envoy.config.filter.network.dubbo_proxy.v2alpha\
     1.MethodMatch.ParameterMatchSpecifierR\x05value:\x028\x01B\x8d\x01\n>io.\
     envoyproxy.envoy.config.filter.network.dubbo_proxy.v2alpha1B\nRouteProto\
-    P\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x051\x12/envoy.ext\
-    ensions.filters.network.dubbo_proxy.v3b\x06proto3\
+    P\x01\xf2\x98\xfe\x8f\x051\x12/envoy.extensions.filters.network.dubbo_pr\
+    oxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

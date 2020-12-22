@@ -1964,8 +1964,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     taMatch\x1a6\n\x0fTunnelingConfig\x12#\n\x08hostname\x18\x01\x20\x01(\tR\
     \x08hostnameB\x07\xfaB\x04r\x02\x20\x01B\x18\n\x11cluster_specifier\x12\
     \x03\xf8B\x01B\x86\x01\n6io.envoyproxy.envoy.config.filter.network.tcp_p\
-    roxy.v2B\rTcpProxyProtoP\x01\xf2\x98\xfe\x8f\x05/\x12-envoy.extensions.f\
-    ilters.network.tcp_proxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    roxy.v2B\rTcpProxyProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
+    \x8f\x05/\x12-envoy.extensions.filters.network.tcp_proxy.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

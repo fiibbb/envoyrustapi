@@ -458,9 +458,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x08disabledB\x07\xfaB\x04j\x02\x08\x01\x12N\n\x06buffer\x18\x02\x20\x01\
     (\x0b2*.envoy.config.filter.http.buffer.v2.BufferH\0R\x06bufferB\x08\xfa\
     B\x05\x8a\x01\x02\x10\x01B\x0f\n\x08override\x12\x03\xf8B\x01Bx\n0io.env\
-    oyproxy.envoy.config.filter.http.buffer.v2B\x0bBufferProtoP\x01\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05)\x12'envoy.extensions.filte\
-    rs.http.buffer.v3b\x06proto3\
+    oyproxy.envoy.config.filter.http.buffer.v2B\x0bBufferProtoP\x01\xf2\x98\
+    \xfe\x8f\x05)\x12'envoy.extensions.filters.http.buffer.v3\xba\x80\xc8\
+    \xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

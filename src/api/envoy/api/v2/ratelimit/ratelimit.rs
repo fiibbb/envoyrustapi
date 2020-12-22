@@ -399,8 +399,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x05Entry\x12\x19\n\x03key\x18\x01\x20\x01(\tR\x03keyB\x07\xfaB\x04r\x02\
     \x20\x01\x12\x1d\n\x05value\x18\x02\x20\x01(\tR\x05valueB\x07\xfaB\x04r\
     \x02\x20\x01Bl\n$io.envoyproxy.envoy.api.v2.ratelimitB\x0eRatelimitProto\
-    P\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05&\x12$envoy.ext\
-    ensions.common.ratelimit.v3b\x06proto3\
+    P\x01\xf2\x98\xfe\x8f\x05&\x12$envoy.extensions.common.ratelimit.v3\xba\
+    \x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

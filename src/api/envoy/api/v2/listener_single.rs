@@ -1785,8 +1785,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     nfig.ExactBalanceH\0R\x0cexactBalance\x1a\x0e\n\x0cExactBalanceB\x13\n\
     \x0cbalance_type\x12\x03\xf8B\x01\")\n\tDrainType\x12\x0b\n\x07DEFAULT\
     \x10\0\x12\x0f\n\x0bMODIFY_ONLY\x10\x01J\x04\x08\x0e\x10\x0fBU\n\x1aio.e\
-    nvoyproxy.envoy.api.v2B\rListenerProtoP\x01\xf2\x98\xfe\x8f\x05\x1a\x12\
-    \x18envoy.config.listener.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    nvoyproxy.envoy.api.v2B\rListenerProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\
+    \x01\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.config.listener.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

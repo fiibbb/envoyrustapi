@@ -217,9 +217,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     te/validate.proto\">\n\x0bOriginalSrc\x12\x1b\n\tbind_port\x18\x01\x20\
     \x01(\x08R\x08bindPort\x12\x12\n\x04mark\x18\x02\x20\x01(\rR\x04markB\
     \x97\x01\n@io.envoyproxy.envoy.config.filter.listener.original_src.v2alp\
-    ha1B\x10OriginalSrcProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\
-    \xfe\x8f\x053\x121envoy.extensions.filters.listener.original_src.v3b\x06\
-    proto3\
+    ha1B\x10OriginalSrcProtoP\x01\xf2\x98\xfe\x8f\x053\x121envoy.extensions.\
+    filters.listener.original_src.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06pro\
+    to3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

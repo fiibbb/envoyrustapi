@@ -152,8 +152,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     scoveryResponse\"'\x82\xd3\xe4\x93\x02\x18\"\x16/v2/discovery:clusters\
     \x82\xd3\xe4\x93\x02\x03:\x01*\x1a\x1c\x8a\xa4\x96\xf3\x07\x16\n\x14envo\
     y.api.v2.ClusterBS\n\x1aio.envoyproxy.envoy.api.v2B\x08CdsProtoP\x01\x88\
-    \x01\x01\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.service.cluster.v3\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    \x01\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x1a\x12\x18\
+    envoy.service.cluster.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

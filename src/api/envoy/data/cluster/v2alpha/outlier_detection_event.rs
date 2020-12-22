@@ -1353,8 +1353,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x04\x12\x16\n\x12FAILURE_PERCENTAGE\x10\x05\x12#\n\x1fFAILURE_PERCENTAG\
     E_LOCAL_ORIGIN\x10\x06*\x20\n\x06Action\x12\t\n\x05EJECT\x10\0\x12\x0b\n\
     \x07UNEJECT\x10\x01Bm\n(io.envoyproxy.envoy.data.cluster.v2alphaB\x1aOut\
-    lierDetectionEventProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
-    \x8f\x05\x17\x12\x15envoy.data.cluster.v3b\x06proto3\
+    lierDetectionEventProtoP\x01\xf2\x98\xfe\x8f\x05\x17\x12\x15envoy.data.c\
+    luster.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

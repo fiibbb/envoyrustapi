@@ -15080,8 +15080,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x0b2\x1d.envoy.type.FractionalPercentR\x0foverallSampling\x12A\n\x0bcus\
     tom_tags\x18\x04\x20\x03(\x0b2\x20.envoy.type.tracing.v2.CustomTagR\ncus\
     tomTags\"\xda\x01\n\x0eVirtualCluster\x12*\n\x07pattern\x18\x01\x20\x01(\
-    \tR\x07patternB\x10\x18\x01\xb8\xee\xf2\xd2\x05\x01\xfaB\x05r\x03(\x80\
-    \x08\x12;\n\x07headers\x18\x04\x20\x03(\x0b2!.envoy.api.v2.route.HeaderM\
+    \tR\x07patternB\x10\x18\x01\xfaB\x05r\x03(\x80\x08\xb8\xee\xf2\xd2\x05\
+    \x01\x12;\n\x07headers\x18\x04\x20\x03(\x0b2!.envoy.api.v2.route.HeaderM\
     atcherR\x07headers\x12\x1b\n\x04name\x18\x02\x20\x01(\tR\x04nameB\x07\
     \xfaB\x04r\x02\x20\x01\x12B\n\x06method\x18\x03\x20\x01(\x0e2\x20.envoy.\
     api.v2.core.RequestMethodR\x06methodB\x08\x18\x01\xb8\xee\xf2\xd2\x05\
@@ -15131,8 +15131,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x0b2!.envoy.type.matcher.StringMatcherH\0R\x0bstringMatchB\x08\xfaB\x05\
     \x8a\x01\x02\x10\x01\x12%\n\rpresent_match\x18\x06\x20\x01(\x08H\0R\x0cp\
     resentMatchB!\n\x1fquery_parameter_match_specifierB_\n\x20io.envoyproxy.\
-    envoy.api.v2.routeB\x14RouteComponentsProtoP\x01\xba\x80\xc8\xd1\x06\x02\
-    \x10\x01\xf2\x98\xfe\x8f\x05\x17\x12\x15envoy.config.route.v3b\x06proto3\
+    envoy.api.v2.routeB\x14RouteComponentsProtoP\x01\xf2\x98\xfe\x8f\x05\x17\
+    \x12\x15envoy.config.route.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

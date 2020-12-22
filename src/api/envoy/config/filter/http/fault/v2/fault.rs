@@ -1204,8 +1204,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     9\n\x19max_active_faults_runtime\x18\x0c\x20\x01(\tR\x16maxActiveFaultsR\
     untime\x12L\n#response_rate_limit_percent_runtime\x18\r\x20\x01(\tR\x1fr\
     esponseRateLimitPercentRuntimeBu\n/io.envoyproxy.envoy.config.filter.htt\
-    p.fault.v2B\nFaultProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
-    \x8f\x05(\x12&envoy.extensions.filters.http.fault.v3b\x06proto3\
+    p.fault.v2B\nFaultProtoP\x01\xf2\x98\xfe\x8f\x05(\x12&envoy.extensions.f\
+    ilters.http.fault.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

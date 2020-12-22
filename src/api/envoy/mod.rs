@@ -2,7 +2,7 @@ pub mod extensions;
 pub mod watchdog;
 pub mod data;
 pub mod service;
-pub mod type;
+pub mod r#type;
 pub mod annotations;
 pub mod api;
 pub mod config;

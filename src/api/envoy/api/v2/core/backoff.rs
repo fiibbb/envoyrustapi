@@ -262,9 +262,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x19.google.protobuf.DurationR\x0cbaseIntervalB\x0e\xfaB\x0b\xaa\x01\x08\
     \x08\x012\x04\x10\xc0\x84=\x12F\n\x0cmax_interval\x18\x02\x20\x01(\x0b2\
     \x19.google.protobuf.DurationR\x0bmaxIntervalB\x08\xfaB\x05\xaa\x01\x02*\
-    \0BU\n\x1fio.envoyproxy.envoy.api.v2.coreB\x0cBackoffProtoP\x01\xf2\x98\
-    \xfe\x8f\x05\x16\x12\x14envoy.config.core.v3\xba\x80\xc8\xd1\x06\x02\x10\
-    \x01b\x06proto3\
+    \0BU\n\x1fio.envoyproxy.envoy.api.v2.coreB\x0cBackoffProtoP\x01\xba\x80\
+    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x16\x12\x14envoy.config.cor\
+    e.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -1896,8 +1896,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     e.v4alpha.DataSourceR\x1asignedCertificateTimestamp:?\x9a\xc5\x88\x1e:\n\
     8envoy.extensions.transport_sockets.tls.v3.TlsCertificate\"\xa8\x01\n\
     \x14TlsSessionTicketKeys\x12I\n\x04keys\x18\x01\x20\x03(\x0b2%.envoy.con\
-    fig.core.v4alpha.DataSourceR\x04keysB\x0e\xfaB\x05\x92\x01\x02\x08\x01\
-    \xb8\xb7\x8b\xa4\x02\x01:E\x9a\xc5\x88\x1e@\n>envoy.extensions.transport\
+    fig.core.v4alpha.DataSourceR\x04keysB\x0e\xb8\xb7\x8b\xa4\x02\x01\xfaB\
+    \x05\x92\x01\x02\x08\x01:E\x9a\xc5\x88\x1e@\n>envoy.extensions.transport\
     _sockets.tls.v3.TlsSessionTicketKeys\"\xf8\x07\n\x1cCertificateValidatio\
     nContext\x12D\n\ntrusted_ca\x18\x01\x20\x01(\x0b2%.envoy.config.core.v4a\
     lpha.DataSourceR\ttrustedCa\x12X\n\x11watched_directory\x18\x0b\x20\x01(\

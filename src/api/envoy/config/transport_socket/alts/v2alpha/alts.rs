@@ -230,9 +230,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x04Alts\x126\n\x12handshaker_service\x18\x01\x20\x01(\tR\x11handshake\
     rServiceB\x07\xfaB\x04r\x02\x20\x01\x122\n\x15peer_service_accounts\x18\
     \x02\x20\x03(\tR\x13peerServiceAccountsB\x81\x01\n8io.envoyproxy.envoy.c\
-    onfig.transport_socket.alts.v2alphaB\tAltsProtoP\x01\xf2\x98\xfe\x8f\x05\
-    ,\x12*envoy.extensions.transport_sockets.alts.v3\xba\x80\xc8\xd1\x06\x02\
-    \x10\x01b\x06proto3\
+    onfig.transport_socket.alts.v2alphaB\tAltsProtoP\x01\xba\x80\xc8\xd1\x06\
+    \x02\x10\x01\xf2\x98\xfe\x8f\x05,\x12*envoy.extensions.transport_sockets\
+    .alts.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

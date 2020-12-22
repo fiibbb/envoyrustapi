@@ -8065,7 +8065,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x0f\n\x0bROUND_ROBIN\x10\0\x12\x11\n\rLEAST_REQUEST\x10\x01\x12\r\n\tRI\
     NG_HASH\x10\x02\x12\n\n\x06RANDOM\x10\x03\x12\n\n\x06MAGLEV\x10\x05\x12\
     \x14\n\x10CLUSTER_PROVIDED\x10\x06\x12\x20\n\x1cLOAD_BALANCING_POLICY_CO\
-    NFIG\x10\x07\"\x04\x08\x04\x10\x04*\x0fORIGINAL_DST_LB\"5\n\x0fDnsLookup\
+    NFIG\x10\x07*\x0fORIGINAL_DST_LB\"\x04\x08\x04\x10\x04\"5\n\x0fDnsLookup\
     Family\x12\x08\n\x04AUTO\x10\0\x12\x0b\n\x07V4_ONLY\x10\x01\x12\x0b\n\
     \x07V6_ONLY\x10\x02\"T\n\x18ClusterProtocolSelection\x12\x1b\n\x17USE_CO\
     NFIGURED_PROTOCOL\x10\0\x12\x1b\n\x17USE_DOWNSTREAM_PROTOCOL\x10\x01B\

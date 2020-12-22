@@ -907,8 +907,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     y.api.v2.auth.CertificateValidationContextH\0R\x11validationContext\x12I\
     \n\x0egeneric_secret\x18\x05\x20\x01(\x0b2\x20.envoy.api.v2.auth.Generic\
     SecretH\0R\rgenericSecretB\x06\n\x04typeBi\n\x1fio.envoyproxy.envoy.api.\
-    v2.authB\x0bSecretProtoP\x01\xf2\x98\xfe\x8f\x05+\x12)envoy.extensions.t\
-    ransport_sockets.tls.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    v2.authB\x0bSecretProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
+    \x8f\x05+\x12)envoy.extensions.transport_sockets.tls.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -2542,8 +2542,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x12a\n\x0ffilter_disabled\x18\x04\x20\x01(\x0b28.envoy.api.v2.listener.\
     ListenerFilterChainMatchPredicateR\x0efilterDisabledB\r\n\x0bconfig_type\
     B\x9c\x01\n#io.envoyproxy.envoy.api.v2.listenerB\x17ListenerComponentsPr\
-    otoP\x01\xaa\x02\x17Envoy.Api.V2.ListenerNS\xf2\x98\xfe\x8f\x05\x1a\x12\
-    \x18envoy.config.listener.v3\xea\x02\x17Envoy.Api.V2.ListenerNS\xba\x80\
+    otoP\x01\xaa\x02\x17Envoy.Api.V2.ListenerNS\xea\x02\x17Envoy.Api.V2.List\
+    enerNS\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.config.listener.v3\xba\x80\
     \xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 

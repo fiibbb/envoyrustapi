@@ -377,8 +377,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     removeAcceptEncodingHeader\x12N\n\x0fruntime_enabled\x18\x05\x20\x01(\
     \x0b2%.envoy.api.v2.core.RuntimeFeatureFlagR\x0eruntimeEnabledB\x84\x01\
     \n4io.envoyproxy.envoy.config.filter.http.compressor.v2B\x0fCompressorPr\
-    otoP\x01\xf2\x98\xfe\x8f\x05-\x12+envoy.extensions.filters.http.compress\
-    or.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    otoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05-\x12+envoy.\
+    extensions.filters.http.compressor.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -437,8 +437,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x01(\x0b2\x1a.envoy.config.rbac.v2.RBACR\x0bshadowRules\"P\n\x0cRBACPer\
     Route\x12:\n\x04rbac\x18\x02\x20\x01(\x0b2&.envoy.config.filter.http.rba\
     c.v2.RBACR\x04rbacJ\x04\x08\x01\x10\x02Br\n.io.envoyproxy.envoy.config.f\
-    ilter.http.rbac.v2B\tRbacProtoP\x01\xf2\x98\xfe\x8f\x05'\x12%envoy.exten\
-    sions.filters.http.rbac.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    ilter.http.rbac.v2B\tRbacProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\
+    \x98\xfe\x8f\x05'\x12%envoy.extensions.filters.http.rbac.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

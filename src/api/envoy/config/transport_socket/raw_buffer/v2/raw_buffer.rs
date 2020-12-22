@@ -144,8 +144,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     y.config.transport_socket.raw_buffer.v2\x1a\x1eudpa/annotations/migrate.\
     proto\x1a\x1dudpa/annotations/status.proto\"\x0b\n\tRawBufferB\x8d\x01\n\
     9io.envoyproxy.envoy.config.transport_socket.raw_buffer.v2B\x0eRawBuffer\
-    ProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x052\x120envo\
-    y.extensions.transport_sockets.raw_buffer.v3b\x06proto3\
+    ProtoP\x01\xf2\x98\xfe\x8f\x052\x120envoy.extensions.transport_sockets.r\
+    aw_buffer.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

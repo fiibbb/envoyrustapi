@@ -1,4 +1,4 @@
 pub mod data;
 pub mod service;
-pub mod type;
+pub mod r#type;
 pub mod annotations;

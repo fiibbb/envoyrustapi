@@ -144,8 +144,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ig.filter.dubbo.router.v2alpha1\x1a\x1eudpa/annotations/migrate.proto\
     \x1a\x1dudpa/annotations/status.proto\"\x08\n\x06RouterB\x8e\x01\n7io.en\
     voyproxy.envoy.config.filter.dubbo.router.v2alpha1B\x0bRouterProtoP\x01\
-    \xf2\x98\xfe\x8f\x058\x126envoy.extensions.filters.network.dubbo_proxy.r\
-    outer.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    \xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x058\x126envoy.extensio\
+    ns.filters.network.dubbo_proxy.router.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

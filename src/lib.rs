@@ -1,6 +1,6 @@
 // extern crate protobuf_codegen_pure;
 
-// pub mod api;
+pub mod api;
 
 #[cfg(test)]
 mod tests {

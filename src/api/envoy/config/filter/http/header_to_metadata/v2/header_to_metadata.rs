@@ -978,8 +978,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\n\x06NUMBER\x10\x01\x12\x12\n\x0ePROTOBUF_VALUE\x10\x02\"#\n\x0bValue\
     Encode\x12\x08\n\x04NONE\x10\0\x12\n\n\x06BASE64\x10\x01B\x9a\x01\n<io.e\
     nvoyproxy.envoy.config.filter.http.header_to_metadata.v2B\x15HeaderToMet\
-    adataProtoP\x01\xf2\x98\xfe\x8f\x055\x123envoy.extensions.filters.http.h\
-    eader_to_metadata.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    adataProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x055\x12\
+    3envoy.extensions.filters.http.header_to_metadata.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

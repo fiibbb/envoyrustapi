@@ -282,7 +282,11 @@ fn gen_mod_files_recursive(path: &Path) {
     println!("generating mod file {}", mod_file.display());
     let mut mod_file = fs::File::create(mod_file).expect("File::create");
     mod_names.iter().for_each(|mod_name| {
-        write!(mod_file, "pub mod {};\n", mod_name).expect("write");
+        let mut mod_name_str = String::from(mod_name);
+        if mod_name == "type" {
+            mod_name_str = format!("r#{}", mod_name_str);
+        }
+        write!(mod_file, "pub mod {};\n", mod_name_str).expect("write");
     });
 
     fs::read_dir(path).expect("read_dir").for_each(|entry| {

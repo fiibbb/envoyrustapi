@@ -204,9 +204,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ns/status.proto\"\\\n\x16OmitHostMetadataConfig\x12B\n\x0emetadata_match\
     \x18\x01\x20\x01(\x0b2\x1b.envoy.api.v2.core.MetadataR\rmetadataMatchB\
     \x98\x01\n6io.envoyproxy.envoy.config.retry.omit_host_metadata.v2B\x1bOm\
-    itHostMetadataConfigProtoP\x01\xf2\x98\xfe\x8f\x053\x121envoy.extensions\
-    .retry.host.omit_host_metadata.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06pr\
-    oto3\
+    itHostMetadataConfigProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\
+    \xfe\x8f\x053\x121envoy.extensions.retry.host.omit_host_metadata.v3b\x06\
+    proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

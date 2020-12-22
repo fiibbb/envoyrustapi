@@ -379,8 +379,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     rvice\x18\x05\x20\x01(\x0b21.envoy.config.ratelimit.v2.RateLimitServiceC\
     onfigR\x10rateLimitServiceB\x08\xfaB\x05\x8a\x01\x02\x10\x01B\xa2\x01\n<\
     io.envoyproxy.envoy.config.filter.thrift.rate_limit.v2alpha1B\x0eRateLim\
-    itProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05D\x12Ben\
-    voy.extensions.filters.network.thrift_proxy.filters.ratelimit.v3b\x06pro\
+    itProtoP\x01\xf2\x98\xfe\x8f\x05D\x12Benvoy.extensions.filters.network.t\
+    hrift_proxy.filters.ratelimit.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06pro\
     to3\
 ";
 

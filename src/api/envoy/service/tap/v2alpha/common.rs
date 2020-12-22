@@ -2654,8 +2654,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x01\"w\n\x11StreamingGrpcSink\x12\x15\n\x06tap_id\x18\x01\x20\x01(\tR\
     \x05tapId\x12K\n\x0cgrpc_service\x18\x02\x20\x01(\x0b2\x1e.envoy.api.v2.\
     core.GrpcServiceR\x0bgrpcServiceB\x08\xfaB\x05\x8a\x01\x02\x10\x01B[\n'i\
-    o.envoyproxy.envoy.service.tap.v2alphaB\x0bCommonProtoP\x01\xba\x80\xc8\
-    \xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x15\x12\x13envoy.config.tap.v3b\
+    o.envoyproxy.envoy.service.tap.v2alphaB\x0bCommonProtoP\x01\xf2\x98\xfe\
+    \x8f\x05\x15\x12\x13envoy.config.tap.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\
     \x06proto3\
 ";
 

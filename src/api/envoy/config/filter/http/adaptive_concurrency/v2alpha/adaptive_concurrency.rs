@@ -1243,8 +1243,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     2%.envoy.api.v2.core.RuntimeFeatureFlagR\x07enabledB$\n\x1dconcurrency_c\
     ontroller_config\x12\x03\xf8B\x01B\xa6\x01\nCio.envoyproxy.envoy.config.\
     filter.http.adaptive_concurrency.v2alphaB\x18AdaptiveConcurrencyProtoP\
-    \x01\xf2\x98\xfe\x8f\x057\x125envoy.extensions.filters.http.adaptive_con\
-    currency.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    \x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x057\x125envoy.exte\
+    nsions.filters.http.adaptive_concurrency.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

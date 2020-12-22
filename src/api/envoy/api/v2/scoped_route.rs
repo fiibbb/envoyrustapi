@@ -657,8 +657,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     nvoy.api.v2.ScopedRouteConfiguration.Key.FragmentR\tfragmentsB\x08\xfaB\
     \x05\x92\x01\x02\x08\x01\x1a8\n\x08Fragment\x12\x1f\n\nstring_key\x18\
     \x01\x20\x01(\tH\0R\tstringKeyB\x0b\n\x04type\x12\x03\xf8B\x01BU\n\x1aio\
-    .envoyproxy.envoy.api.v2B\x10ScopedRouteProtoP\x01\xf2\x98\xfe\x8f\x05\
-    \x17\x12\x15envoy.config.route.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06pr\
+    .envoyproxy.envoy.api.v2B\x10ScopedRouteProtoP\x01\xba\x80\xc8\xd1\x06\
+    \x02\x10\x01\xf2\x98\xfe\x8f\x05\x17\x12\x15envoy.config.route.v3b\x06pr\
     oto3\
 ";
 

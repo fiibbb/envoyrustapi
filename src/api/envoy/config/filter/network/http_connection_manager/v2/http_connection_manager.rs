@@ -5908,9 +5908,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     rk.http_connection_manager.v2.RequestIDExtensionR\x12requestIdExtension\
     \x1a\xb6\x05\n\x07Tracing\x12\x9c\x01\n\x0eoperation_name\x18\x01\x20\
     \x01(\x0e2c.envoy.config.filter.network.http_connection_manager.v2.HttpC\
-    onnectionManager.Tracing.OperationNameR\roperationNameB\x10\x18\x01\xb8\
-    \xee\xf2\xd2\x05\x01\xfaB\x05\x82\x01\x02\x10\x01\x12;\n\x18request_head\
-    ers_for_tags\x18\x02\x20\x03(\tR\x15requestHeadersForTagsB\x02\x18\x01\
+    onnectionManager.Tracing.OperationNameR\roperationNameB\x10\x18\x01\xfaB\
+    \x05\x82\x01\x02\x10\x01\xb8\xee\xf2\xd2\x05\x01\x12;\n\x18request_heade\
+    rs_for_tags\x18\x02\x20\x03(\tR\x15requestHeadersForTagsB\x02\x18\x01\
     \x12<\n\x0fclient_sampling\x18\x03\x20\x01(\x0b2\x13.envoy.type.PercentR\
     \x0eclientSampling\x12<\n\x0frandom_sampling\x18\x04\x20\x01(\x0b2\x13.e\
     nvoy.type.PercentR\x0erandomSampling\x12>\n\x10overall_sampling\x18\x05\
@@ -5981,8 +5981,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x12RequestIDExtension\x127\n\x0ctyped_config\x18\x01\x20\x01(\x0b2\x14.\
     google.protobuf.AnyR\x0btypedConfigB\xaf\x01\nDio.envoyproxy.envoy.confi\
     g.filter.network.http_connection_manager.v2B\x1aHttpConnectionManagerPro\
-    toP\x01\xf2\x98\xfe\x8f\x05=\x12;envoy.extensions.filters.network.http_c\
-    onnection_manager.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    toP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05=\x12;envoy.e\
+    xtensions.filters.network.http_connection_manager.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;
