@@ -474,8 +474,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     tateB\x08\xfaB\x05\x82\x01\x02\x10\x01\"F\n\x0bSocketState\x12\x11\n\rST\
     ATE_PREBIND\x10\0\x12\x0f\n\x0bSTATE_BOUND\x10\x01\x12\x13\n\x0fSTATE_LI\
     STENING\x10\x02B\x0c\n\x05value\x12\x03\xf8B\x01BZ\n\x1fio.envoyproxy.en\
-    voy.api.v2.coreB\x11SocketOptionProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\
-    \x01\xf2\x98\xfe\x8f\x05\x16\x12\x14envoy.config.core.v3b\x06proto3\
+    voy.api.v2.coreB\x11SocketOptionProtoP\x01\xf2\x98\xfe\x8f\x05\x16\x12\
+    \x14envoy.config.core.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

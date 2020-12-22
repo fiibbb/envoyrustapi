@@ -153,9 +153,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     .v2.DiscoveryRequest\x1a\x1f.envoy.api.v2.DiscoveryResponse\"(\x82\xd3\
     \xe4\x93\x02\x19\"\x17/v2/discovery:endpoints\x82\xd3\xe4\x93\x02\x03:\
     \x01*\x1a*\x8a\xa4\x96\xf3\x07$\n\"envoy.api.v2.ClusterLoadAssignmentBT\
-    \n\x1aio.envoyproxy.envoy.api.v2B\x08EdsProtoP\x01\x88\x01\x01\xf2\x98\
-    \xfe\x8f\x05\x1b\x12\x19envoy.service.endpoint.v3\xba\x80\xc8\xd1\x06\
-    \x02\x10\x01b\x06proto3\
+    \n\x1aio.envoyproxy.envoy.api.v2B\x08EdsProtoP\x01\x88\x01\x01\xba\x80\
+    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x1b\x12\x19envoy.service.en\
+    dpoint.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

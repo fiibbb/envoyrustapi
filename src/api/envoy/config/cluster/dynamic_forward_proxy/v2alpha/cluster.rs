@@ -206,8 +206,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x20\x01(\x0b2A.envoy.config.common.dynamic_forward_proxy.v2alpha.DnsCac\
     heConfigR\x0ednsCacheConfigB\x08\xfaB\x05\x8a\x01\x02\x10\x01B\x94\x01\n\
     @io.envoyproxy.envoy.config.cluster.dynamic_forward_proxy.v2alphaB\x0cCl\
-    usterProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x054\x12\
-    2envoy.extensions.clusters.dynamic_forward_proxy.v3b\x06proto3\
+    usterProtoP\x01\xf2\x98\xfe\x8f\x054\x122envoy.extensions.clusters.dynam\
+    ic_forward_proxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

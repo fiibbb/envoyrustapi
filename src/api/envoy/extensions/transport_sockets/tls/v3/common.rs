@@ -1895,7 +1895,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     taSourceR\x1asignedCertificateTimestamp:'\x9a\xc5\x88\x1e\"\n\x20envoy.a\
     pi.v2.auth.TlsCertificate\"\x8b\x01\n\x14TlsSessionTicketKeys\x12D\n\x04\
     keys\x18\x01\x20\x03(\x0b2\x20.envoy.config.core.v3.DataSourceR\x04keysB\
-    \x0e\xb8\xb7\x8b\xa4\x02\x01\xfaB\x05\x92\x01\x02\x08\x01:-\x9a\xc5\x88\
+    \x0e\xfaB\x05\x92\x01\x02\x08\x01\xb8\xb7\x8b\xa4\x02\x01:-\x9a\xc5\x88\
     \x1e(\n&envoy.api.v2.auth.TlsSessionTicketKeys\"\xc7\x07\n\x1cCertificat\
     eValidationContext\x12?\n\ntrusted_ca\x18\x01\x20\x01(\x0b2\x20.envoy.co\
     nfig.core.v3.DataSourceR\ttrustedCa\x12S\n\x11watched_directory\x18\x0b\

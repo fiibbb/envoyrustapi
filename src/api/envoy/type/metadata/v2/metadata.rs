@@ -1343,8 +1343,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     er\x12?\n\x04host\x18\x04\x20\x01(\x0b2).envoy.type.metadata.v2.Metadata\
     Kind.HostH\0R\x04host\x1a\t\n\x07Request\x1a\x07\n\x05Route\x1a\t\n\x07C\
     luster\x1a\x06\n\x04HostB\x0b\n\x04kind\x12\x03\xf8B\x01B]\n$io.envoypro\
-    xy.envoy.type.metadata.v2B\rMetadataProtoP\x01\xba\x80\xc8\xd1\x06\x02\
-    \x10\x01\xf2\x98\xfe\x8f\x05\x18\x12\x16envoy.type.metadata.v3b\x06proto\
+    xy.envoy.type.metadata.v2B\rMetadataProtoP\x01\xf2\x98\xfe\x8f\x05\x18\
+    \x12\x16envoy.type.metadata.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto\
     3\
 ";
 

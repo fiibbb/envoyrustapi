@@ -847,9 +847,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     enums_as_ints\x18\x03\x20\x01(\x08R\x16alwaysPrintEnumsAsInts\x12;\n\x1a\
     preserve_proto_field_names\x18\x04\x20\x01(\x08R\x17preserveProtoFieldNa\
     mesB\x15\n\x0edescriptor_set\x12\x03\xf8B\x01B\x8e\x01\n4io.envoyproxy.e\
-    nvoy.config.filter.http.transcoder.v2B\x0fTranscoderProtoP\x01\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x057\x125envoy.extensions.filte\
-    rs.http.grpc_json_transcoder.v3b\x06proto3\
+    nvoy.config.filter.http.transcoder.v2B\x0fTranscoderProtoP\x01\xf2\x98\
+    \xfe\x8f\x057\x125envoy.extensions.filters.http.grpc_json_transcoder.v3\
+    \xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

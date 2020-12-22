@@ -1,10 +1,10 @@
 use std::collections::HashSet;
 use std::fs;
-use std::path::Path;
 use std::io::prelude::*;
+use std::path::Path;
 
 use glob;
-use protoc_rust::{Codegen,Customize};
+use protoc_rust::{Codegen, Customize};
 
 // eg: ("proto_deps/repos/client_model", "proto_deps/repos/client_model", "src")
 //     => src/metrics.proto
@@ -199,6 +199,35 @@ fn build_proto_farm() {
     );
 }
 
+fn fix_api_farm_recursive(path: &Path) {
+    for entry in fs::read_dir(path).expect("read_dir") {
+        let entry = entry.expect("entry").path();
+        if entry.is_dir() {
+            fix_api_farm_recursive(entry.as_path());
+            let package_name = entry
+                .file_name()
+                .expect("file_name")
+                .to_str()
+                .expect("to_str");
+            let rs_file_path = path.join(Path::new(&format!("{}.rs", package_name)));
+            if rs_file_path.as_path().exists() {
+                let new_rs_file_path = path.join(Path::new(&format!("{}_single.rs", package_name)));
+                println!(
+                    "renaming {} => {}",
+                    rs_file_path.display(),
+                    new_rs_file_path.display()
+                );
+                fs::rename(&rs_file_path, &new_rs_file_path).expect("rename");
+            }
+        }
+    }
+}
+
+fn fix_api_farm() {
+    let proto_root = Path::new("src/api");
+    fix_api_farm_recursive(proto_root);
+}
+
 fn compile_proto_farm() {
     let dst_root = Path::new("src/api");
     fs::remove_dir_all(dst_root).expect("remove_dir_all");
@@ -210,30 +239,48 @@ fn compile_proto_farm() {
         .map(|entry| entry.expect("glob entry"));
 
     inputs.for_each(|input| {
-        let out_path = dst_root.join(input.parent().expect("parent").strip_prefix(src_prefix).expect("strip_prefix"));
+        let out_path = dst_root.join(
+            input
+                .parent()
+                .expect("parent")
+                .strip_prefix(src_prefix)
+                .expect("strip_prefix"),
+        );
         let out_path = out_path.as_path();
         fs::create_dir_all(out_path).expect("create_dir_all");
-        Codegen::new().out_dir(out_path).include(src_prefix).input(input).customize(Customize{
-                .. Customize::default()
-        }).run().expect("codegen");
+        println!("compiling {} into {}", input.display(), out_path.display());
+        Codegen::new()
+            .out_dir(out_path)
+            .include(src_prefix)
+            .input(input)
+            .customize(Customize {
+                ..Customize::default()
+            })
+            .run()
+            .expect("codegen");
     });
 }
 
 fn gen_mod_files_recursive(path: &Path) {
     if !path.is_dir() {
-        return
+        return;
     }
 
-    let mod_names: Vec<String> = fs::read_dir(path).expect("read_dir").map(|entry| {
-        let entry = entry.expect("entry");
-        let mod_name = entry.file_name();
-        let mut mod_name = mod_name.to_str().expect("to_str");
-        if mod_name.ends_with(".rs") {
-            mod_name = mod_name.strip_suffix(".rs").expect("strip_suffix");
-        }
-        mod_name.to_string()
-    }).collect();
-    let mut mod_file = fs::File::create(path.join("mod.rs")).expect("File::create");
+    let mod_names: Vec<String> = fs::read_dir(path)
+        .expect("read_dir")
+        .map(|entry| {
+            let entry = entry.expect("entry");
+            let mod_name = entry.file_name();
+            let mut mod_name = mod_name.to_str().expect("to_str");
+            if mod_name.ends_with(".rs") {
+                mod_name = mod_name.strip_suffix(".rs").expect("strip_suffix");
+            }
+            mod_name.to_string()
+        })
+        .collect();
+    let mod_file = path.join("mod.rs");
+    println!("generating mod file {}", mod_file.display());
+    let mut mod_file = fs::File::create(mod_file).expect("File::create");
     mod_names.iter().for_each(|mod_name| {
         write!(mod_file, "pub mod {};\n", mod_name).expect("write");
     });
@@ -251,5 +298,6 @@ fn gen_mod_files() {
 fn main() {
     build_proto_farm();
     compile_proto_farm();
+    fix_api_farm();
     gen_mod_files();
 }

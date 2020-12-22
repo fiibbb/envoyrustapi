@@ -463,8 +463,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \xa8\xf7\xb4\x8b\x02\x01\x12\r\n\tHTTP_JSON\x10\x01\x12\x0e\n\nHTTP_PROT\
     O\x10\x02\x12\x08\n\x04GRPC\x10\x03:)\x9a\xc5\x88\x1e$\n\"envoy.config.t\
     race.v2.ZipkinConfigBk\n#io.envoyproxy.envoy.config.trace.v3B\x0bZipkinP\
-    rotoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x02\xf2\x98\xfe\x8f\x05)\x12'envoy\
-    .extensions.tracers.zipkin.v4alphab\x06proto3\
+    rotoP\x01\xf2\x98\xfe\x8f\x05)\x12'envoy.extensions.tracers.zipkin.v4alp\
+    ha\xba\x80\xc8\xd1\x06\x02\x10\x02b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

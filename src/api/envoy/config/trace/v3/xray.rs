@@ -584,8 +584,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x12\x16\n\x06origin\x18\x01\x20\x01(\tR\x06origin\x12)\n\x03aws\x18\x02\
     \x20\x01(\x0b2\x17.google.protobuf.StructR\x03aws:,\x9a\xc5\x88\x1e'\n%e\
     nvoy.config.trace.v2alpha.XRayConfigBg\n#io.envoyproxy.envoy.config.trac\
-    e.v3B\tXrayProtoP\x01\xf2\x98\xfe\x8f\x05'\x12%envoy.extensions.tracers.\
-    xray.v4alpha\xba\x80\xc8\xd1\x06\x02\x10\x02b\x06proto3\
+    e.v3B\tXrayProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x02\xf2\x98\xfe\x8f\
+    \x05'\x12%envoy.extensions.tracers.xray.v4alphab\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

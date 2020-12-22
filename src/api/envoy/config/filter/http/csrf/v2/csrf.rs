@@ -314,8 +314,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     untimeFractionalPercentR\rshadowEnabled\x12P\n\x12additional_origins\x18\
     \x03\x20\x03(\x0b2!.envoy.type.matcher.StringMatcherR\x11additionalOrigi\
     nsBr\n.io.envoyproxy.envoy.config.filter.http.csrf.v2B\tCsrfProtoP\x01\
-    \xf2\x98\xfe\x8f\x05'\x12%envoy.extensions.filters.http.csrf.v3\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    \xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05'\x12%envoy.extensio\
+    ns.filters.http.csrf.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

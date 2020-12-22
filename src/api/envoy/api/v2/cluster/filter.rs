@@ -247,8 +247,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x01\x127\n\x0ctyped_config\x18\x02\x20\x01(\x0b2\x14.google.protobuf.An\
     yR\x0btypedConfigB\x8c\x01\n\"io.envoyproxy.envoy.api.v2.clusterB\x0bFil\
     terProtoP\x01\xaa\x02\x16Envoy.Api.V2.ClusterNS\xf2\x98\xfe\x8f\x05\x19\
-    \x12\x17envoy.config.cluster.v3\xba\x80\xc8\xd1\x06\x02\x10\x01\xea\x02\
-    \x16Envoy.Api.V2.ClusterNSb\x06proto3\
+    \x12\x17envoy.config.cluster.v3\xea\x02\x16Envoy.Api.V2.ClusterNS\xba\
+    \x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

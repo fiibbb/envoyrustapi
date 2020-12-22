@@ -2139,8 +2139,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ntryR\x11contextExtensions\x1aD\n\x16ContextExtensionsEntry\x12\x10\n\
     \x03key\x18\x01\x20\x01(\tR\x03key\x12\x14\n\x05value\x18\x02\x20\x01(\t\
     R\x05value:\x028\x01B\x80\x01\n3io.envoyproxy.envoy.config.filter.http.e\
-    xt_authz.v2B\rExtAuthzProtoP\x01\xf2\x98\xfe\x8f\x05,\x12*envoy.extensio\
-    ns.filters.http.ext_authz.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    xt_authz.v2B\rExtAuthzProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\
+    \xfe\x8f\x05,\x12*envoy.extensions.filters.http.ext_authz.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

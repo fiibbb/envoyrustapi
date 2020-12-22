@@ -1861,8 +1861,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x1a0.envoy.service.discovery.v2.HealthCheckSpecifier\"+\x82\xd3\xe4\x93\
     \x02\x1c\"\x1a/v2/discovery:health_check\x82\xd3\xe4\x93\x02\x03:\x01*B`\
     \n(io.envoyproxy.envoy.service.discovery.v2B\x08HdsProtoP\x01\x88\x01\
-    \x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x19\x12\x17envo\
-    y.service.health.v3b\x06proto3\
+    \x01\xf2\x98\xfe\x8f\x05\x19\x12\x17envoy.service.health.v3\xba\x80\xc8\
+    \xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

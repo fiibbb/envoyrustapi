@@ -334,8 +334,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x05ENVOY\x10\0\x12\r\n\tLIGHTSTEP\x10\x01\x12\x06\n\x02B3\x10\x02\x12\
     \x11\n\rTRACE_CONTEXT\x10\x03:,\x9a\xc5\x88\x1e'\n%envoy.config.trace.v2\
     .LightstepConfigBq\n#io.envoyproxy.envoy.config.trace.v3B\x0eLightstepPr\
-    otoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x02\xf2\x98\xfe\x8f\x05,\x12*envoy.\
-    extensions.tracers.lightstep.v4alphab\x06proto3\
+    otoP\x01\xf2\x98\xfe\x8f\x05,\x12*envoy.extensions.tracers.lightstep.v4a\
+    lpha\xba\x80\xc8\xd1\x06\x02\x10\x02b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

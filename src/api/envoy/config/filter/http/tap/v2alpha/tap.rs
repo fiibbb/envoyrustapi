@@ -204,9 +204,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x1a\x17validate/validate.proto\"l\n\x03Tap\x12e\n\rcommon_config\x18\
     \x01\x20\x01(\x0b26.envoy.config.common.tap.v2alpha.CommonExtensionConfi\
     gR\x0ccommonConfigB\x08\xfaB\x05\x8a\x01\x02\x10\x01Bt\n2io.envoyproxy.e\
-    nvoy.config.filter.http.tap.v2alphaB\x08TapProtoP\x01\xba\x80\xc8\xd1\
-    \x06\x02\x10\x01\xf2\x98\xfe\x8f\x05&\x12$envoy.extensions.filters.http.\
-    tap.v3b\x06proto3\
+    nvoy.config.filter.http.tap.v2alphaB\x08TapProtoP\x01\xf2\x98\xfe\x8f\
+    \x05&\x12$envoy.extensions.filters.http.tap.v3\xba\x80\xc8\xd1\x06\x02\
+    \x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

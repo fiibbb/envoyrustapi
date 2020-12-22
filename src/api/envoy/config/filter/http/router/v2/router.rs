@@ -408,8 +408,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     -msR\x13x-envoy-max-retriesR\x15x-envoy-retry-grpc-onR\x10x-envoy-retry-\
     on\x12=\n\x1brespect_expected_rq_timeout\x18\x06\x20\x01(\x08R\x18respec\
     tExpectedRqTimeoutBx\n0io.envoyproxy.envoy.config.filter.http.router.v2B\
-    \x0bRouterProtoP\x01\xf2\x98\xfe\x8f\x05)\x12'envoy.extensions.filters.h\
-    ttp.router.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    \x0bRouterProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\
+    )\x12'envoy.extensions.filters.http.router.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

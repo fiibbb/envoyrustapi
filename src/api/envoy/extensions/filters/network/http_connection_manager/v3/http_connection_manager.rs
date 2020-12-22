@@ -6612,7 +6612,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     est_timeout\x18\x1c\x20\x01(\x0b2\x19.google.protobuf.DurationR\x0ereque\
     stTimeoutB\x07\x8a\x93\xb7*\x02\x08\x01\x12b\n\x17request_headers_timeou\
     t\x18)\x20\x01(\x0b2\x19.google.protobuf.DurationR\x15requestHeadersTime\
-    outB\x0f\x8a\x93\xb7*\x02\x08\x01\xfaB\x05\xaa\x01\x022\0\x12>\n\rdrain_\
+    outB\x0f\xfaB\x05\xaa\x01\x022\0\x8a\x93\xb7*\x02\x08\x01\x12>\n\rdrain_\
     timeout\x18\x0c\x20\x01(\x0b2\x19.google.protobuf.DurationR\x0cdrainTime\
     out\x12M\n\x15delayed_close_timeout\x18\x1a\x20\x01(\x0b2\x19.google.pro\
     tobuf.DurationR\x13delayedCloseTimeout\x12C\n\naccess_log\x18\r\x20\x03(\

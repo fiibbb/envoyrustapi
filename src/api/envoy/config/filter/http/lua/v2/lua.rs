@@ -187,9 +187,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     http.lua.v2\x1a\x1eudpa/annotations/migrate.proto\x1a\x1dudpa/annotation\
     s/status.proto\x1a\x17validate/validate.proto\"/\n\x03Lua\x12(\n\x0binli\
     ne_code\x18\x01\x20\x01(\tR\ninlineCodeB\x07\xfaB\x04r\x02\x20\x01Bo\n-i\
-    o.envoyproxy.envoy.config.filter.http.lua.v2B\x08LuaProtoP\x01\xba\x80\
-    \xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05&\x12$envoy.extensions.filte\
-    rs.http.lua.v3b\x06proto3\
+    o.envoyproxy.envoy.config.filter.http.lua.v2B\x08LuaProtoP\x01\xf2\x98\
+    \xfe\x8f\x05&\x12$envoy.extensions.filters.http.lua.v3\xba\x80\xc8\xd1\
+    \x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

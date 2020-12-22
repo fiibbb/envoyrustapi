@@ -672,8 +672,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x0b2\x14.google.protobuf.AnyR\x06config*\x19\n\x0cProtocolType\x12\t\n\
     \x05Dubbo\x10\0*!\n\x11SerializationType\x12\x0c\n\x08Hessian2\x10\0B\
     \x92\x01\n>io.envoyproxy.envoy.config.filter.network.dubbo_proxy.v2alpha\
-    1B\x0fDubboProxyProtoP\x01\xf2\x98\xfe\x8f\x051\x12/envoy.extensions.fil\
-    ters.network.dubbo_proxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    1B\x0fDubboProxyProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\
+    \x8f\x051\x12/envoy.extensions.filters.network.dubbo_proxy.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

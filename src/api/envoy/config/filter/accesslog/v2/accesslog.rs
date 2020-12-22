@@ -3808,8 +3808,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     buf.StructH\0R\x06configB\x02\x18\x01\x129\n\x0ctyped_config\x18\x03\x20\
     \x01(\x0b2\x14.google.protobuf.AnyH\0R\x0btypedConfigB\r\n\x0bconfig_typ\
     eBk\n.io.envoyproxy.envoy.config.filter.accesslog.v2B\x0eAccesslogProtoP\
-    \x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05\x1b\x12\x19envo\
-    y.config.accesslog.v3b\x06proto3\
+    \x01\xf2\x98\xfe\x8f\x05\x1b\x12\x19envoy.config.accesslog.v3\xba\x80\
+    \xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

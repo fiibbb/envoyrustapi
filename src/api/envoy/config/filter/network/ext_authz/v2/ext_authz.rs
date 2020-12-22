@@ -319,9 +319,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     iceR\x0bgrpcService\x12,\n\x12failure_mode_allow\x18\x03\x20\x01(\x08R\
     \x10failureModeAllow\x128\n\x18include_peer_certificate\x18\x04\x20\x01(\
     \x08R\x16includePeerCertificateB\x86\x01\n6io.envoyproxy.envoy.config.fi\
-    lter.network.ext_authz.v2B\rExtAuthzProtoP\x01\xba\x80\xc8\xd1\x06\x02\
-    \x10\x01\xf2\x98\xfe\x8f\x05/\x12-envoy.extensions.filters.network.ext_a\
-    uthz.v3b\x06proto3\
+    lter.network.ext_authz.v2B\rExtAuthzProtoP\x01\xf2\x98\xfe\x8f\x05/\x12-\
+    envoy.extensions.filters.network.ext_authz.v3\xba\x80\xc8\xd1\x06\x02\
+    \x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

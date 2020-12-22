@@ -641,9 +641,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     i.v2.route.QueryParameterMatcherR\x17queryParametersIncluded\x12e\n\x19q\
     uery_parameters_excluded\x18\x04\x20\x03(\x0b2).envoy.api.v2.route.Query\
     ParameterMatcherR\x17queryParametersExcludedB\x87\x01\n4io.envoyproxy.en\
-    voy.config.filter.http.cache.v2alphaB\nCacheProtoP\x01\xba\x80\xc8\xd1\
-    \x06\x02\x08\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05-\
-    \x12+envoy.extensions.filters.http.cache.v3alphab\x06proto3\
+    voy.config.filter.http.cache.v2alphaB\nCacheProtoP\x01\xf2\x98\xfe\x8f\
+    \x05-\x12+envoy.extensions.filters.http.cache.v3alpha\xba\x80\xc8\xd1\
+    \x06\x02\x08\x01\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -474,8 +474,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     ped_config\x18\x03\x20\x01(\x0b2\x14.google.protobuf.AnyH\0R\x0btypedCon\
     figB\r\n\x0bconfig_type\"\x1c\n\x1aActiveRawUdpListenerConfigB\x9b\x01\n\
     #io.envoyproxy.envoy.api.v2.listenerB\x16UdpListenerConfigProtoP\x01\xaa\
-    \x02\x17Envoy.Api.V2.ListenerNS\xf2\x98\xfe\x8f\x05\x1a\x12\x18envoy.con\
-    fig.listener.v3\xea\x02\x17Envoy.Api.V2.ListenerNS\xba\x80\xc8\xd1\x06\
+    \x02\x17Envoy.Api.V2.ListenerNS\xea\x02\x17Envoy.Api.V2.ListenerNS\xf2\
+    \x98\xfe\x8f\x05\x1a\x12\x18envoy.config.listener.v3\xba\x80\xc8\xd1\x06\
     \x02\x10\x01b\x06proto3\
 ";
 

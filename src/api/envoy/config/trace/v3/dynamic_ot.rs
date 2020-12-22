@@ -247,9 +247,9 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x07library\x18\x01\x20\x01(\tR\x07libraryB\x07\xfaB\x04r\x02\x10\x01\
     \x12/\n\x06config\x18\x02\x20\x01(\x0b2\x17.google.protobuf.StructR\x06c\
     onfig:,\x9a\xc5\x88\x1e'\n%envoy.config.trace.v2.DynamicOtConfigBr\n#io.\
-    envoyproxy.envoy.config.trace.v3B\x0eDynamicOtProtoP\x01\xf2\x98\xfe\x8f\
-    \x05-\x12+envoy.extensions.tracers.dynamic_ot.v4alpha\xba\x80\xc8\xd1\
-    \x06\x02\x10\x02b\x06proto3\
+    envoyproxy.envoy.config.trace.v3B\x0eDynamicOtProtoP\x01\xba\x80\xc8\xd1\
+    \x06\x02\x10\x02\xf2\x98\xfe\x8f\x05-\x12+envoy.extensions.tracers.dynam\
+    ic_ot.v4alphab\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

@@ -999,8 +999,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x10\0\x12\n\n\x06BINARY\x10\x01\x12\x0e\n\nLAX_BINARY\x10\x02\x12\x0b\n\
     \x07COMPACT\x10\x03\x12\x0b\n\x07TWITTER\x10\x04B\x95\x01\n?io.envoyprox\
     y.envoy.config.filter.network.thrift_proxy.v2alpha1B\x10ThriftProxyProto\
-    P\x01\xf2\x98\xfe\x8f\x052\x120envoy.extensions.filters.network.thrift_p\
-    roxy.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    P\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x052\x120envoy.ext\
+    ensions.filters.network.thrift_proxy.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

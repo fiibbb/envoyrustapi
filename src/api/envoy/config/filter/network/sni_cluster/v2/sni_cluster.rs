@@ -144,8 +144,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     y.config.filter.network.sni_cluster.v2\x1a\x1eudpa/annotations/migrate.p\
     roto\x1a\x1dudpa/annotations/status.proto\"\x0c\n\nSniClusterB\x8c\x01\n\
     8io.envoyproxy.envoy.config.filter.network.sni_cluster.v2B\x0fSniCluster\
-    ProtoP\x01\xf2\x98\xfe\x8f\x051\x12/envoy.extensions.filters.network.sni\
-    _cluster.v3\xba\x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
+    ProtoP\x01\xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x051\x12/envo\
+    y.extensions.filters.network.sni_cluster.v3b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;

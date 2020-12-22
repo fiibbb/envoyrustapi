@@ -426,8 +426,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     uf.StructH\0R\njsonFormat\x12E\n\x11typed_json_format\x18\x04\x20\x01(\
     \x0b2\x17.google.protobuf.StructH\0R\x0ftypedJsonFormatB\x13\n\x11access\
     _log_formatBm\n'io.envoyproxy.envoy.config.accesslog.v2B\tFileProtoP\x01\
-    \xba\x80\xc8\xd1\x06\x02\x10\x01\xf2\x98\xfe\x8f\x05)\x12'envoy.extensio\
-    ns.access_loggers.file.v3b\x06proto3\
+    \xf2\x98\xfe\x8f\x05)\x12'envoy.extensions.access_loggers.file.v3\xba\
+    \x80\xc8\xd1\x06\x02\x10\x01b\x06proto3\
 ";
 
 static file_descriptor_proto_lazy: ::protobuf::rt::LazyV2<::protobuf::descriptor::FileDescriptorProto> = ::protobuf::rt::LazyV2::INIT;
